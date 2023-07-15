@@ -119,7 +119,32 @@ main{
     font-size: 1rem;
     font-weight: 400;
 }
+/* facts section */
+.facts-card-container{
+    display: flex;
+    justify-content: space-around;
 
+}
+.facts-card-container .card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 30px;
+
+}
+.facts-card-container .card-stats{
+    color: #424242;
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.facts-card-container .card-title{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 5px;
+}
 
 
 
